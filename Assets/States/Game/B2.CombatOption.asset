@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50f26cd96559370498a6c009ed1d62ab, type: 3}
+  m_Name: B2.CombatOption
+  m_EditorClassIdentifier: 
+  storyText: "Nos hemos enfrentado a los guardias.\n\nMe encuentro ahora en una habitaci\xF3n
+    con dos puertas.\nUna limpia y otra destartalada.\n\n1. Paso por la puerta limpia.\n2.
+    Paso por la puerta destartalada."
+  nextStates:
+  - {fileID: 11400000, guid: 1a8acd7b13de3e54ab89f6f138a3c4ee, type: 2}
+  - {fileID: 11400000, guid: 5c5e20c5f86e6e34f9d0486e49bab917, type: 2}
+  storySprite: {fileID: -312645806, guid: 672082b8d2c7c7649b0f93b2a18724d6, type: 3}
